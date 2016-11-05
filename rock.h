@@ -20,10 +20,19 @@ private:
 
 // Subclasses
 
-class Fornacite: public Rock {};
+class Fornacite: public Rock
+{
+    void virtual action() {cout << "action" << endl;}
+};
 
-class Fukalite: public Rock {};
+class Fukalite: public Rock
+{
+    void virtual action() {cout << "action" << endl;}
+};
 
-class Cummingtonite: public Rock {};
+class Cummingtonite: public Rock
+{
+    void virtual action() {cout << "action" << endl;}
+};
 
 #endif
