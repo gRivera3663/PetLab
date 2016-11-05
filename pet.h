@@ -25,6 +25,9 @@ private:
     string name;
     int age;
     Person owner;
+    
+public:
+    void virtual action() = 0;
 };
 
 

@@ -25,6 +25,7 @@ public:
     {
         cout << "Maintains eye contact. Asserts dominance." << endl;
     }
+    void virtual action() {cout << "action" << endl;}
 };
 
 class Dog: public Animal
@@ -34,6 +35,7 @@ public:
     {
         cout << "Yum." << endl;
     }
+    void virtual action() {cout << "action" << endl;}
 };
 
 class Snake: public Animal
@@ -43,6 +45,7 @@ public:
     {
         cout << "snek snek snek" << endl;
     }
+    void virtual action() {cout << "action" << endl;}
 };
 
 #endif

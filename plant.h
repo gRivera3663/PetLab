@@ -24,6 +24,7 @@ public:
     {
         cout << "(fern noises)" << endl;
     }
+    void virtual action() {cout << "action" << endl;}
 };
 
 class Cactus: public Plant
@@ -33,6 +34,7 @@ public:
     {
         cout << "Poke." << endl;
     }
+    void virtual action() {cout << "action" << endl;}
 };
 
 #endif
